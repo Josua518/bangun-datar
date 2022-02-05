@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="id" translate="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="matematika, bangun datar" />
+  <meta
+  name="description"
+  content="Disini kita akan menghitung bangun datar dengan sangat mudah. Kalian tinggal masukkan angka dalam kolom hitungan, kemudian klik hitung. Setelah itu kita akan dapat penjelasan dari cara menghitung bangun datar tersebut."
+  />
+  <meta name="author" content="sulistio" />
+
+  <title>Belajar Matematika | Bangun Datar</title>
+  <!-- ----------------------------------------------- link bootstrap ------------------------------------------------ -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+
+  <!-- ------------------------------------------------- google font ------------------------------------------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+  rel="stylesheet"
+  />
+
+  <!-- ------------------------------------------------ link own css ------------------------------------------------- -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- -------------------------------------------- START NAVBAR --------------------------------------------- -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">MTK</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-lg-5" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="./index.html">Home</a>
+          <a class="nav-link" href="./faktorial.html">Faktorial</a>
+          <a class="nav-link" href="./bangun-ruang.html">Bangun Ruang</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- --------------------------------------------- END NAVBAR ---------------------------------------------- -->
+
+  <!-- ------------------------------------------------ START BANNER ------------------------------------------------- -->
+
+  <div class="mb-0 box-banner">
+    <img src="assets/img/banner.jpg" alt="banner" />
+  </div>
+
+  <!-- ------------------------------------------------- END BANNER -------------------------------------------------- -->
+
+  <!-- --------------------------------------------- START INTRODUCTION ---------------------------------------------- -->
+  <header class="container">
+    <div class="row">
+      <div class="col-lg-12 introduction">
+        <h1 class="mb-4">Matematika : Belajar Bangun Datar</h1>
+        <p>
+          Bangun datar merupakan bangun-bangun yang memiliki permukaan datar dan terbentuk dari dua
+          dimensi. Dimensi tersebut adalah panjang dan lebar. Selain itu, bangun datar juga memiliki luas,
+          keliling, sisi, sudut, dan beberapa garis simetris dengan bentuk yang beraturan. Hanya saja,
+          bangun datar tidak memiliki kedalaman.
+        </p>
+
+        <p class="mt-3">
+          Disini kita akan menghitung bangun datar dengan sangat mudah. Kalian tinggal masukkan angka
+          dalam kolom hitungan, kemudian klik hitung. Setelah itu kita akan dapat penjelasan dari cara
+          menghitung bangun datar tersebut.
+        </p>
+      </div>
+    </div>
+  </header>
+  <!-- ---------------------------------------------- END INTRODUCTION ----------------------------------------------- -->
+
+  <!-- ------------------------------------------ START CONTAIN CALCULATION ------------------------------------------ -->
+  <main>
+    <div class="container">
+      <!-- ----------------------------------------------- CIRCLE SECTION ------------------------------------------------ -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!-- *HEADING CIRCLE -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Lingkaran</h3>
+              </div>
+            </div>
+            <!--* END HEADING CIRCLE -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM CIRCLE -->
+            <div class="row">
+              <div class="col-md-6 px-4 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus lingkaran
+                    </p>
+                    <p>
+                      Luas = 𝜋 x r
+                      <sup>2</sup>
+                    </p>
+                    <p>
+                      Keliling = 2 x 𝜋 x r
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img class="my-3 img-fluid" src="assets/img/Lingkaran.png" alt="circle" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="circle">nilai jari-jari (r)</label>
+                  <div class="input-group-append">
+                    <input
+                    class="form-control mr-3"
+                    type="number"
+                    name="number-circle"
+                    id="circle"
+                    min="0"
+                    />
+                    <button class="btn bc-purple text-light circle">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 px-4 explaination-circle"></div>
+            </div>
+            <!--* END FORMULA, INPUT USER, IMAGE FORM CIRCLE -->
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------------------- END CIRCLE SECTION ---------------------------------------------- -->
+
+      <!-- ----------------------------------------------- START SQUARE ----------------------------------------------- -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!--* HEADING SQUARE -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Persegi</h3>
+              </div>
+            </div>
+            <!--* END HEADING SQUARE -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM SQUARE -->
+            <div class="row">
+              <div class="col-md-6 p-4 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Persegi
+                    </p>
+                    <p>
+                      Luas = s x s
+                    </p>
+                    <p>
+                      Keliling = s x 4
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img src="assets/img/Persegi.png" alt="square" class="img-fluid my-3" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="square">nilai sisi (s)</label>
+                  <div class="input-group-append">
+                    <input
+                    class="form-control mr-3"
+                    type="number"
+                    name="number-square"
+                    id="square"
+                    min="0"
+                    />
+                    <button class="btn bc-purple text-light square">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-4 explaination-square"></div>
+            </div>
+            <!--* END FORMULA, INPUT USER, IMAGE FORM SQUARE -->
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------- END SQUARE -------------------------------------------------- -->
+
+      <!-- ----------------------------------------------- START RECTANGLE ----------------------------------------------- -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!--* HEADING RECTANGLE -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Persegi Panjang</h3>
+              </div>
+            </div>
+            <!--* END HEADING RECTANGLE -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM RECTANGLE -->
+            <div class="row">
+              <div class="col-md-6 p-4 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Persegi Panjang
+                    </p>
+                    <p>
+                      Luas = P x L
+                    </p>
+                    <p>
+                      Keliling = (2 x P) + (2 x L)
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img
+                    src="assets/img/Persegi_Panjang.png"
+                    alt="square"
+                    class="img-fluid my-3"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-md-6">
+                    <label for="number-width">nilai panjang (P)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="number-width"
+                    id="number-width"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="number-height" class="mt-3 mt-md-0">nilai lebar (L)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="number-height"
+                    id="number-height"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <button class="btn bc-purple mt-3 text-light rectangle">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-4 explaination-rectangle"></div>
+            </div>
+            <!--* END FORMULA, INPUT USER, IMAGE FORM RECTANGLE -->
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------ END RECTANGLE ------------------------------------------------ -->
+
+      <!-- ----------------------------------------------- START TRIANGLE ------------------------------------------------ -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!--* HEADING TRIANGLE -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Segitiga</h3>
+              </div>
+            </div>
+            <!--* END HEADING TRIANGLE -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM TRIANGLE -->
+            <div class="row">
+              <div class="col-md-6 px-4 border border-danger rounded align-self-start">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Segitiga
+                    </p>
+                    <p>
+                      Luas = 1/2 x a x t
+                    </p>
+                    <p>
+                      Keliling = a + b + c
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img src="assets/img/Segitiga.png" alt="triangle" class="img-fluid my-3" />
+                  </div>
+                </div>
+
+                <div class="form-group triangle row">
+                  <div class="col-md-6">
+                    <label for="triangle-base">nilai alas (a)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="triangle-base"
+                    id="triangle-base"
+                    min="0"
+                    />
+
+                    <label for="triangle-height" class="mt-3">nilai tinggi (t)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="triangle-height"
+                    id="triangle-height"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="triangle-side-b" class="mt-3 mt-md-0">nilai sisi (b)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="triangle-side-b"
+                    id="triangle-side-b"
+                    min="0"
+                    />
+
+                    <label for="triangle-side-c" class="mt-3">nilai sisi (c)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="triangle-side-c"
+                    id="triangle-side-c"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <button class="btn bc-purple text-light mt-3 triangle">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 px-4 explaination-triangle"></div>
+            </div>
+            <!--* END FORMULA, INPUT USER, IMAGE FORM TRIANGLE -->
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------ END TRIANGLE ------------------------------------------------- -->
+
+      <div class="row mt-5">
+        <!-- --------------------------------------- START TRAPEZOID --------------------------------------- -->
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!--* HEADING TRAPEZOID -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Trapesium</h3>
+              </div>
+            </div>
+            <!--* END HEADING TRAPEZOID -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM TRAPEZOID -->
+            <div class="row justify-content-between">
+              <div class="col-md-6 px-4 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Trapesium
+                    </p>
+                    <p>
+                      Luas = (a + b) * t ÷ 2
+                    </p>
+                    <p>
+                      Keliling = a + b + c + d
+                    </p>
+                    <p class="mt-3 font-weight-bold">
+                      catatan : d = t
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img
+                    src="assets/img/Trapesium.png"
+                    alt="trapesium"
+                    class="img-fluid my-3"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group row trapezoid">
+                  <div class="col-md-6">
+                    <label for="trapezoid-a">sisi bawah (a)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="trapezoid-a"
+                    id="trapezoid-a"
+                    min="0"
+                    />
+
+                    <label for="trapezoid-height" class="mt-3">tinggi (t)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="trapezoid-height"
+                    id="trapezoid-height"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="trapezoid-side-b">sisi atas (b)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="trapezoid-side-b"
+                    id="trapezoid-side-b"
+                    min="0"
+                    />
+
+                    <label for="trapezoid-side-c" class="mt-3">sisi miring (c)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="trapezoid-side-c"
+                    id="trapezoid-side-c"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <button class="btn bc-purple mt-3 text-light trapezoid">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 px-4 explaination-trapezoid"></div>
+            </div>
+          </div>
+          <!--* END FORMULA, INPUT USER, IMAGE FORM TRAPEZOID -->
+        </div>
+      </div>
+      <!-- ---------------------------------------- END TRAPEZOID ---------------------------------------- -->
+
+      <!-- ------------------------------------- START PARALLELOGRAM ------------------------------------- -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!--* HEADING PARALLELOGRAM -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Jajar Genjang</h3>
+              </div>
+            </div>
+            <!--* END HEADING PARALLELOGRAM -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM PARALLELOGRAM -->
+            <div class="row justify-content-between">
+              <div class="col-md-6 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Jajar Genjang
+                    </p>
+                    <p>
+                      Luas = a * t
+                    </p>
+                    <p>
+                      Keliling = a + b + c + d
+                    </p>
+                    <p class="mt-3 font-weight-bold">
+                      catatan : a = c , b = d
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img
+                    src="assets/img/Jajar_Genjang.png"
+                    alt="jajar genjang"
+                    class="img-fluid my-3"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group row mt-3">
+                  <div class="col-md-4">
+                    <label for="parallelogram-a">nilai sisi (a) atau (c)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="parallelogram-a"
+                    id="parallelogram-a"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="parallelogram-height">nilai tinggi (t)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="parallelogram-height"
+                    id="parallelogram-height"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="parallelogram-b">nilai sisi (b) atau (d)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="parallelogram-b"
+                    id="parallelogram-b"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-3 mt-3">
+                    <button class="btn bc-purple text-light parallelogram">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2 explaination-parallelogram"></div>
+            </div>
+          </div>
+          <!--* END FORMULA, INPUT USER, IMAGE FORM PARALLELOGRAM -->
+        </div>
+      </div>
+      <!-- ----------------------------------------------END ROW 3 ---------------------------------------------- -->
+
+      <!-- ---------------------------------------- START RHOMBUS ---------------------------------------- -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!--* HEADING RHOMBUS -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Belah Ketupat</h3>
+              </div>
+            </div>
+            <!--* END HEADING RHOMBUS -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM RHOMBUS -->
+            <div class="row justify-content-between">
+              <div class="col-md-6 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Belah Ketupat
+                    </p>
+                    <p>
+                      Luas = 1/2 x d1 x d2
+                    </p>
+                    <p>
+                      Keliling = 4 x s
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img
+                    src="assets/img/Belah_Ketupat.png"
+                    alt="belah ketupat"
+                    class="img-fluid my-3"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group row mt-3">
+                  <div class="col-md-4">
+                    <label for="rhombus-d1">diagonal 1</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="rhombus-d1"
+                    id="rhombus-d1"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="rhombus-d2">diagonal 2</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="rhombus-d2"
+                    id="rhombus-d2"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="rhombus-s">sisi (s)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="rhombus-s"
+                    id="rhombus-s"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-3 mt-3">
+                    <button class="btn bc-purple text-light rhombus">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 p-2 explaination-rhombus"></div>
+            </div>
+          </div>
+          <!--* END FORMULA, INPUT USER, IMAGE FORM RHOMBUS -->
+        </div>
+      </div>
+      <!-- ----------------------------------------- END RHOMBUS ----------------------------------------- -->
+
+      <!-- ----------------------------------------- START KITE ------------------------------------------ -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!--* HEADING KITE -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Layang-Layang</h3>
+              </div>
+            </div>
+            <!--* END HEADING KITE -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM KITE -->
+            <div class="row">
+              <div class="col-md-6 px-4 border border-danger rounded align-self-start">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Layang-Layang
+                    </p>
+                    <p>
+                      Luas = 1/2 x d1 x d2
+                    </p>
+                    <p>
+                      Keliling = (2 x a) + (2 x b)
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img
+                    src="assets/img/Layang-Layang.png"
+                    alt="layang layang"
+                    class="img-fluid my-3"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-md-6">
+                    <label for="kite-d1">nilai diagonal 1</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="kite-d1"
+                    id="kite-d1"
+                    min="0"
+                    />
+
+                    <label for="kite-d2" class="mt-3">nilai diagonal 2</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="kite-d2"
+                    id="kite-d2"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="kite-a" class="mt-3 mt-md-0">nilai sisi (a)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="kite-a"
+                    id="kite-a"
+                    min="0"
+                    />
+
+                    <label for="kite-b" class="mt-3">nilai sisi (b)</label>
+                    <input
+                    class="form-control"
+                    type="number"
+                    name="kite-b"
+                    id="kite-b"
+                    min="0"
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <button class="btn bc-purple text-light mt-3 kite">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 px-4 explaination-kite"></div>
+            </div>
+            <!--* END FORMULA, INPUT USER, IMAGE FORM KITE -->
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------ END KITE ------------------------------------------- -->
+    </div>
+  </main>
+
+  <footer class="container-fluid bg-dark mt-5 p-3">
+    <div class="row">
+      <div class="col-md-12 mb-3">
+        <p class="text-light text-md-center">
+          &copy;
+          <span class="copy-right"></span>
+          | Koko Ganteng
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!--* javascript bootstrap -->
+  <script src="./assets/vendor/jquery/jquery.js"></script>
+
+  <script type="module" src="./assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
+  <!--* my custom javascript -->
+  <script type="module" src="./assets/js/script.mjs"></script>
+</body>
+</html>

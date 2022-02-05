@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="id" translate="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="matematika, bangun ruang" />
+  <meta
+  name="description"
+  content="Disini kita akan menghitung bangun ruang dengan sangat mudah. Kalian tinggal masukkan angka dalam kolom hitungan, kemudian klik hitung. Setelah itu kita akan dapat penjelasan dari cara menghitung bangun ruang tersebut."
+  />
+  <meta name="author" content="sulistio" />
+
+  <title>Belajar Matematika | Bangun Ruang</title>
+  <!-- ----------------------------------------------- link bootstrap ------------------------------------------------ -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+
+  <!-- ------------------------------------------------- google font ------------------------------------------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+  rel="stylesheet"
+  />
+
+  <!-- ------------------------------------------------ link own css ------------------------------------------------- -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- -------------------------------------------- START NAVBAR --------------------------------------------- -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">MTK</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-lg-5" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link" href="./faktorial.html">Faktorial</a>
+          <a class="nav-link active" href="./bangun-ruang.html">Bangun Ruang</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- --------------------------------------------- END NAVBAR ---------------------------------------------- -->
+
+  <!-- ------------------------------------------------ START BANNER ------------------------------------------------- -->
+
+  <div class="mb-0 box-banner">
+    <img src="assets/img/banner.jpg" alt="banner" />
+  </div>
+
+  <!-- ------------------------------------------------- END BANNER -------------------------------------------------- -->
+
+  <!-- --------------------------------------------- START INTRODUCTION ---------------------------------------------- -->
+  <header class="container">
+    <div class="row">
+      <div class="col-lg-12 introduction">
+        <h1 class="mb-4">Matematika : Belajar Bangun Ruang</h1>
+        <p>
+          Bangun ruang merupakan suatu bangunan yang memiliki ruang yang dibatasi oleh beberapa sisi.
+          Bangun ruang juga disebut tiga dimensi. Beberapa contoh bangun ruang yang kerap kita temui
+          dikehidupan sehari-hari adalah bangun ruang kubus, balok, limas, prisma, dan tabung, kerucut,
+          bola.
+        </p>
+
+        <p class="mt-3">
+          Disini kita akan menghitung bangun ruang dengan sangat mudah. Kalian tinggal masukkan angka
+          dalam kolom hitungan, kemudian klik hitung. Setelah itu kita akan dapat penjelasan dari cara
+          menghitung bangun ruang tersebut.
+        </p>
+      </div>
+    </div>
+  </header>
+  <!-- ---------------------------------------------- END INTRODUCTION ----------------------------------------------- -->
+
+  <!-- ------------------------------------------ START CONTAIN CALCULATION ------------------------------------------ -->
+  <main>
+    <div class="container">
+      <!-- ----------------------------------------------- CUBE SECTION ------------------------------------------------ -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!-- *HEADING CUBE -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Kubus</h3>
+              </div>
+            </div>
+            <!--* END HEADING CUBE -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM CUBE -->
+            <div class="row">
+              <div class="col-md-6 px-4 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Kubus
+                    </p>
+                    <p>
+                      Volume = s x s x s
+                    </p>
+                    <p>
+                      Luas Permukaan = s x s x 6
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img class="my-3 img-fluid" src="assets/img/Kubus.png" alt="kubus" />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="cube">nilai sisi (s)</label>
+                  <div class="input-group-append">
+                    <input
+                    class="form-control mr-3"
+                    type="number"
+                    name="cube"
+                    id="cube"
+                    min="0"
+                    />
+                    <button class="btn bc-purple text-light cube">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 px-4 explaination-cube"></div>
+            </div>
+            <!--* END FORMULA, INPUT USER, IMAGE FORM CUBE -->
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------------------------- END CUBE SECTION ---------------------------------------------- -->
+      <!-- ----------------------------------------- START BEAM ------------------------------------------ -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!-- *HEADING BEAM -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Balok</h3>
+              </div>
+            </div>
+            <!--* END HEADING BEAM -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM BEAM -->
+            <div class="row">
+              <div class="col-md-6 px-4 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Balok
+                    </p>
+                    <p>
+                      Volume = p x l x t
+                    </p>
+                    <p>
+                      Luas Permukaan = ( 2 x p x l ) + (2 x l x t) + ( 2 x p x t )
+                    </p>
+                  </div>
+
+                  <div class="col-md-6">
+                    <img class="my-3 img-fluid" src="assets/img/Balok.png" alt="Balok" />
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-md-4 p-1">
+                    <label for="beam-p">nilai sisi (p)</label>
+                    <div class="input-group-append">
+                      <input
+                      class="form-control mr-3"
+                      type="number"
+                      name="beam-p"
+                      id="beam-p"
+                      min="0"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 p-1">
+                    <label for="beam-l">nilai sisi (l)</label>
+                    <div class="input-group-append">
+                      <input
+                      class="form-control mr-3"
+                      type="number"
+                      name="beam-l"
+                      id="beam-l"
+                      min="0"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 p-1">
+                    <label for="beam-t">nilai sisi (t)</label>
+                    <div class="input-group-append">
+                      <input
+                      class="form-control mr-3"
+                      type="number"
+                      name="beam-t"
+                      id="beam-t"
+                      min="0"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 p-1 mt-3">
+                    <button class="btn bc-purple text-light beam">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 px-4 explaination-beam"></div>
+            </div>
+            <!--* END FORMULA, INPUT USER, IMAGE FORM BEAM -->
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------ END BEAM ------------------------------------------- -->
+
+      <!-- ----------------------------------------- START TUBE ------------------------------------------ -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!-- *HEADING TUBE -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Tabung</h3>
+              </div>
+            </div>
+            <!--* END HEADING TUBE -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM TUBE -->
+            <div class="row">
+              <div class="col-md-6 px-4 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Tabung
+                    </p>
+                    <p>
+                      Volume = π x r
+                      <sup>2</sup>
+                      x t
+                    </p>
+                    <p>
+                      Luas Permukaan = ( 2 x π x r ) x ( r + t )
+                    </p>
+                  </div>
+
+                  <div class="col-md-6 d-flex">
+                    <img
+                    class="my-3 mx-auto img-fluid"
+                    src="assets/img/Tabung.png"
+                    alt="Tabung"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-md-6 p-1">
+                    <label for="tube-r">nilai jari-jari (r)</label>
+                    <div class="input-group-append">
+                      <input
+                      class="form-control mr-3"
+                      type="number"
+                      name="tube-r"
+                      id="tube-r"
+                      min="0"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 p-1">
+                    <label for="tube-t">nilai tinggi (t)</label>
+                    <div class="input-group-append">
+                      <input
+                      class="form-control mr-3"
+                      type="number"
+                      name="tube-t"
+                      id="tube-t"
+                      min="0"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 p-1 mt-3">
+                    <button class="btn bc-purple text-light tube">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 px-4 explaination-tube"></div>
+            </div>
+            <!--* END FORMULA, INPUT USER, IMAGE FORM TUBE -->
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------ END TUBE ------------------------------------------- -->
+      <!-- ----------------------------------------- START CONE ------------------------------------------ -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!-- *HEADING CONE -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Kerucut</h3>
+              </div>
+            </div>
+            <!--* END HEADING CONE -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM CONE -->
+            <div class="row">
+              <div class="col-md-6 px-4 border border-danger rounded">
+                <div class="row">
+                  <div class="col-md-7">
+                    <p class="font-weight-bold my-3">
+                      Rumus Kerucut
+                    </p>
+                    <p>
+                      Volume = 1/3 x π x r
+                      <sup>2</sup>
+                      x t
+                    </p>
+                    <p>
+                      Luas Permukaan = π x r x ( s + r )
+                    </p>
+                  </div>
+
+                  <div class="col-md-5 d-flex">
+                    <img
+                    class="my-3 mx-auto img-fluid"
+                    src="assets/img/Kerucut.png"
+                    alt="Kerucut"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <div class="col-md-4 p-1">
+                    <label for="cone-r">jari-jari (r)</label>
+                    <div class="input-group-append">
+                      <input
+                      class="form-control mr-3"
+                      type="number"
+                      name="cone-r"
+                      id="cone-r"
+                      min="0"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 p-1">
+                    <label for="cone-t">tinggi (t)</label>
+                    <div class="input-group-append">
+                      <input
+                      class="form-control mr-3"
+                      type="number"
+                      name="cone-t"
+                      id="cone-t"
+                      min="0"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 p-1">
+                    <label for="cone-s">selimut (s)</label>
+                    <div class="input-group-append">
+                      <input
+                      class="form-control mr-3"
+                      type="number"
+                      name="cone-s"
+                      id="cone-s"
+                      min="0"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 p-1 mt-3">
+                    <button class="btn bc-purple text-light cone">Hitung</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 px-4 explaination-cone"></div>
+            </div>
+            <!--* END FORMULA, INPUT USER, IMAGE FORM CONE -->
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------ END CONE ------------------------------------------- -->
+
+      <!-- ----------------------------------------- START BALL ------------------------------------------ -->
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="box-container container-fluid">
+            <!-- *HEADING BALL -->
+            <div class="row">
+              <div class="col-md-12 py-2">
+                <h3 class="c-purple">Bola</h3>
+              </div>
+            </div>
+            <!--* END HEADING BALL -->
+
+            <!--* FORMULA, INPUT USER, IMAGE FORM BALL -->
+            <div class="row">
+              <div class="col-md-6 px-4 border border-danger rounded">
+                <div class="row my-3">
+                  <div class="col-md-6">
+                    <p class="font-weight-bold my-3">
+                      Rumus Bola
+                    </p>
+                    <p>
+                      Volume = 4/3 x π x r<sup>3</sup</p>
+                      <p>
+                        Luas Permukaan = 4 x π x r
+                        <sup>2</sup>
+                      </p>
+                    </div>
+
+                    <div class="col-md-6">
+                      <img class="my-3 img-fluid" src="assets/img/Bola.png" alt="bola" />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="ball">nilai jari-jari (r)</label>
+                    <div class="input-group-append">
+                      <input
+                      class="form-control mr-3"
+                      type="number"
+                      name="ball"
+                      id="ball"
+                      min="0"
+                      />
+                      <button class="btn bc-purple text-light ball">Hitung</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 px-4 explaination-ball"></div>
+              </div>
+              <!--* END FORMULA, INPUT USER, IMAGE FORM BALL -->
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------------------------ END BALL ------------------------------------------- -->
+      </div>
+    </main>
+
+    <footer class="container-fluid bg-dark mt-5 p-3">
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <p class="text-light text-md-center">
+            &copy;
+            <span class="copy-right"></span>
+            | Koko Ganteng
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!--* javascript bootstrap -->
+    <script src="./assets/vendor/jquery/jquery.js"></script>
+
+    <script type="module" src="./assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <!--* my custom javascript -->
+    <script type="module" src="./assets/js/geometry.mjs"></script>
+  </body>
+</html>
